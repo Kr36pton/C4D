@@ -1,0 +1,408 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#header{
+    background-color: #5C355F;
+    width: 100%;
+    height: 70px;
+    position:absolute;
+}
+
+#navegacion{
+    margin: auto;
+    width: 500px;
+}
+#logopag1{
+    float: left;
+    margin-top: 10px;
+}
+.nav{
+    float: right;
+    font-size: 30px;
+    font-style: italic;
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: #5C355F;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a:hover{
+    background-color:#97609B;
+}
+.nav > li{
+    float: left;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+#primercachojuasjuas{ 
+    width: 1310px;
+    height: 375px;
+    padding-top: 70px;
+    background-image:url(../img/hero/top-left-shape.png);
+}
+#text1{
+    color: white;
+    float: left;
+    width: 42%;
+    height: 385px;
+    padding-left: 70px;
+    padding-top: 30px;
+    font-size: 38px;
+}
+#text2{
+    color: gray;
+    float: left;
+    width: 42%;
+    height: 112px;
+    padding-left: 70px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: light 400;
+}
+#hero1{
+    float: left;
+    width: 42%;
+    height: 385px;
+    padding-left: 70px;
+    padding-top: 40px;
+    font-size: 35px;
+}
+#segundocachojuasjuas{
+    width: 100%;
+    height: 400px;
+    float: left;
+    margin-top: 100px;
+}
+#scbigtitle{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: Medium 500;
+    color: white;
+}
+#target1{
+    width: 30%;
+    height: 340px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#target2{
+    width: 30%;
+    height: 340px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#target3{
+    width: 30%;
+    height: 340px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sctitle{
+    font-weight: bold;
+    color: white;
+}
+.scparaph{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#tercercachojuasjuas{
+    width: 100%;
+    height: 1250px;
+    background-color: white;
+    float: left;
+}
+#colitatc{
+    width: 100%;
+    height: 81px;
+    background-image: url(../img/hero/hero3.png);
+    float: left;
+}
+#about1{
+    margin-top: 100px;
+    margin-left: 60px;
+    float: left;
+}
+.abttitle{
+    color: #5C355F;
+    font-style: italic;
+    font-weight: Medium 500;
+    float: left;
+    font-size: 34px;
+}
+.abttxt{
+    margin-top: 40px;
+    margin-left: 60px;
+    float: left;
+    font-size: 20px;
+}
+.abtsubtxt{
+    margin-top: 20px;
+    margin-left: 60px;
+    float: left;
+    font-size: 18px;
+}
+#abttxtholder1{
+    width: 52%;
+    height: 500px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+#abttxtholder2{
+    width: 52%;
+    height: 500px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.container{
+    margin: auto;
+    background-color: #7C4A80;
+    width: 800px;
+    padding: 45px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#7C4A80;
+  }
+  
+  ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+  #elslidercut{
+      float: left;
+      margin-top: 100px;
+      margin-left: 250px;
+  }
+  .fraseplaya{
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+  }
+  .daplaya{
+      color: black;
+      font-size: 30px;
+      font-weight: bold;
+  }
+.qhaceplaya{
+    color: black;
+    font-size: 30px;
+}
+#pater{
+    background-image: url(../img/hero/down-right-shape.png);
+    width: 100%;
+    height: 400px;
+    float: left;
+    margin-top: 100px;
+}
+#logocacho{
+    margin-top: 50px;
+    margin-left: 40px;
+    float: left;
+}
+#redescacho{
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    width: 35%;
+    height: 260px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.redsocial{
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    border-width: 7px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 12px;
+    margin-left: 20px;
+}
+.red2{
+    float: left;
+    margin-top: 40px;
+    padding-left: 90px;
+    font-size: 85px;
+}
+#copirai{
+    float: left;
+    margin-top: 80px;
+}
+#gameselection{
+    width: 80%;
+    height: 500px;
+    background-color: #7C4A80;
+    margin-top: 30px;
+    margin-left: 120px;
+    float: left;
+    border-radius: 10px;
+}
+#redselection{
+    width: 70%;
+    height: 500px;
+    background-color: #7C4A80;
+    margin-top: 30px;
+    margin-left: 200px;
+    float: left;
+    border-radius: 10px;
+    color: white;
+    font-size: 55px;
+}
+#suselect{
+    width: 215px;
+    height: 215px;
+    background-image: url(../img/elements/super-smash-bros-ultimate.png);
+    background-size: 215px 215px;
+    margin-left: 38px;
+    margin-top: 25px;
+    float: left;
+    border-radius: 10px;
+}
+#skselect{
+    width: 215px;
+    height: 215px;
+    background-image: url(../img/elements/skull_girls.jpg);
+    background-size: 215px 215px;
+    margin-left: 38px;
+    margin-top: 25px;
+    float: left;
+    border-radius: 10px;
+}
+#tselect{
+    width: 215px;
+    height: 215px;
+    background-image: url(../img/elements/tekken_7.jpg);
+    background-size: 215px 215px;
+    margin-left: 38px;
+    margin-top: 25px;
+    float: left;
+    border-radius: 10px;
+}
+#mkselect{
+    width: 215px;
+    height: 215px;
+    background-image: url(../img/elements/mortal_kombat.png);
+    background-size: 215px 215px;
+    margin-left: 38px;
+    margin-top: 25px;
+    float: left;
+    border-radius: 10px;
+}
+#sfselect{
+    width: 215px;
+    height: 215px;
+    background-image: url(../img/elements/street_fighter.png);
+    background-size: 215px 215px;
+    margin-left: 38px;
+    margin-top: 25px;
+    float: left;
+    border-radius: 10px;
+}
+#kofselect{
+    width: 215px;
+    height: 215px;
+    background-image: url(../img/elements/KoF_02.jpg);
+    background-size: 215px 215px;
+    margin-left: 38px;
+    margin-top: 25px;
+    float: left;
+    border-radius: 10px;
+}
+#dbfzselect{
+    width: 215px;
+    height: 215px;
+    background-image: url(../img/elements/dragon_ball_fighterz.png);
+    background-size: 215px 215px;
+    margin-left: 38px;
+    margin-top: 25px;
+    float: left;
+    border-radius: 10px;
+}
+#iselect{
+    width: 215px;
+    height: 215px;
+    background-image: url(../img/elements/injustice.png);
+    background-size: 215px 215px;
+    margin-left: 38px;
+    margin-top: 25px;
+    float: left;
+    border-radius: 10px;
+}

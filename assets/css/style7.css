@@ -1,0 +1,391 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#header{
+    background-color: #5C355F;
+    width: 100%;
+    height: 70px;
+    position:absolute;
+}
+
+#navegacion{
+    margin: auto;
+    width: 500px;
+}
+#logopag1{
+    float: left;
+    margin-top: 10px;
+}
+.nav{
+    float: right;
+    font-size: 30px;
+    font-style: italic;
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: #5C355F;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a:hover{
+    background-color:#97609B;
+}
+.nav > li{
+    float: left;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+#primercachojuasjuas{ 
+    width: 1310px;
+    height: 475px;
+    padding-top: 70px;
+    background-image:url(../img/hero/top-left-shape.png);
+}
+#text1{
+    color: white;
+    float: left;
+    width: 42%;
+    height: 385px;
+    padding-left: 70px;
+    padding-top: 30px;
+    font-size: 38px;
+}
+#alisa{
+    background: url(../img/tcharact/C_ASA.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+   background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#asuka{
+    margin: 0px;
+    background: url(../img/tcharact/C_ASK.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+   background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#bryan{
+    margin: 0px;
+    background: url(../img/tcharact/C_BRY.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+   background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#claudio{
+    margin: 0px;
+    background: url(../img/tcharact/C_ITA.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+   background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#dragunov{
+    margin: 0px;
+    background: url(../img/tcharact/C_DRA.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;margin-top: 12px;
+    margin-bottom: 12px;
+   background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#feng{
+    margin: 0px;
+    background: url(../img/tcharact/C_FEN.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+   background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#heihachi{
+    margin: 0px;
+    background: url(../img/tcharact/C_HEI.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+   background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#hwoarang{
+    margin: 0px;
+    background: url(../img/tcharact/C_HWO.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+   background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#katarina{
+    margin: 0px;
+    background: url(../img/tcharact/C_LTN.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#kazuya{
+    margin: 0px;
+    background: url(../img/tcharact/C_KAZ.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#king{
+    margin: 0px;
+    background: url(../img/tcharact/C_KIN.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#lars{
+    margin: 0px;
+    background: url(../img/tcharact/C_LAR.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#leo{
+    margin: 0px;
+    background: url(../img/tcharact/C_LEO.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#lili{
+    margin: 0px;
+    background: url(../img/tcharact/C_LIL.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#chloe{
+    margin: 0px;
+    background: url(../img/tcharact/C_DNC.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#marshall{
+    margin: 0px;
+    background: url(../img/tcharact/C_LAW.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#paul{
+    margin: 0px;
+    background: url(../img/tcharact/C_PAU.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#shaheen{
+    margin: 0px;
+    background: url(../img/tcharact/C_ARB.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#steve{
+    margin: 0px;
+    background: url(../img/tcharact/C_STE.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#xiaoyu{
+    margin: 0px;
+    background: url(../img/tcharact/C_XIA.png) center;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-size: 200px, 200px;
+    border-radius: 10px;
+}
+#personajest{
+    margin: 10px;
+    background-color: #97609B;
+    width: 1300px;
+    height: 775px;
+    float: left;
+    border-radius: 10px;
+}
+#sgimg{
+    margin-left: 20px;
+    float: left;
+    border-color: #C63CD1;
+    border-style: solid;
+    border-radius: 5px;
+}
+#sisaspa{
+    float: left;
+}
+#texto1{
+    color: white;
+    float: left;
+    width: 42%;
+    height: 385px;
+    padding-left: 70px;
+    padding-top: 30px;
+    font-size: 38px;
+} 
+#primerpedazo{ 
+    width: 1310px;
+    height: 475px;
+    padding-top: 70px;
+    background-image:url(../img/hero/top-left-shape.png);
+}
+#pater{
+    background-image: url(../img/hero/down-right-shape.png);
+    width: 100%;
+    height: 400px;
+    float: left;
+    margin-top: 100px;
+}
+#logocacho{
+    margin-top: 50px;
+    margin-left: 40px;
+    float: left;
+}
+#redescacho{
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    width: 35%;
+    height: 260px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.redsocial{
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    border-width: 7px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 12px;
+    margin-left: 20px;
+}
+#copirai{
+    float: left;
+    margin-top: 80px;
+}

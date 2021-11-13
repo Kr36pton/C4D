@@ -1,0 +1,967 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#header{
+    background-color: #5C355F;
+    width: 100%;
+    height: 70px;
+    position:absolute;
+}
+
+#navegacion{
+    margin: auto;
+    width: 500px;
+}
+#logopag1{
+    float: left;
+    margin-top: 10px;
+}
+.nav{
+    float: right;
+    font-size: 30px;
+    font-style: italic;
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: #5C355F;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a:hover{
+    background-color:#97609B;
+}
+.nav > li{
+    float: left;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+#primercachojuasjuas{ 
+    width: 1310px;
+    height: 475px;
+    padding-top: 70px;
+    background-image:url(../img/hero/top-left-shape.png);
+}
+#text1{
+    color: white;
+    float: left;
+    width: 42%;
+    height: 385px;
+    padding-left: 70px;
+    padding-top: 30px;
+    font-size: 38px;
+}
+#mario{
+    margin: 0px;
+    background: url(../img/smshcaract/mario.jpg) center;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 140px, 120px;
+    border-radius: 10px;
+}
+#monki{
+    margin: 0px;
+    background-image: url(../img/smshcaract/donkey_kong.png);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 120px, 100px;
+    border-radius: 10px;
+}
+#linkgrande{
+    margin: 0px;
+    background-color:rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/link_big.jpg);
+    background-size: 110px, 80px;
+    border-radius: 10px;
+}
+#samusyoscura{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Samus_oscura.png);
+    background-size: 110px, 87px;
+    border-radius: 10px;
+}
+#yoshi{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Yoshi_pa.png);
+    background-size: 110px, 87px;
+    border-radius: 10px;
+}
+#kirby{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/kirby_bolarosa.png);
+    background-size: 109px, 87px;
+    border-radius: 10px;
+}
+#fox{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Fox_SSBU.png);
+    background-size: 110px, 87px;
+    border-radius: 10px;
+    
+}
+#pikachu{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Pikachu_SSBU.png);
+    background-size: 110px, 87px;
+    border-radius: 10px;
+}
+#luigi{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Luigi_SSBU.png);
+    background-size: 115px, 90px;
+    border-radius: 10px;
+}
+#captfalco{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Captain_Falcon_SSBU.png);
+    background-size: 112px, 90px;
+    border-radius: 10px;
+}
+#jigglypuff{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Jigglypuff_SSBU.png);
+    background-size: 125px, 100px;
+    border-radius: 10px;
+}
+#peach_daisy{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Peach_SSB4.png);
+    background-size: 110px, 87px;
+    border-radius: 10px;
+}
+#bowser{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Bowser_SSBU.png);
+    background-size: 115px, 93px;
+    border-radius: 10px;
+}
+#iceclimbers{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Ice_Climbers_SSBU.png);
+    background-size: 115px, 93px;
+    border-radius: 10px;
+}
+#sheik{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Sheik_SSBU.png);
+    background-size: 116px, 94px;
+    border-radius: 10px;
+}
+#zelda{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Zelda_SSBU.png);
+    background-size: 115px, 93px;
+    border-radius: 10px;
+}
+#dr_mario{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Dr._Mario_SSBU.png);
+    background-size: 112px, 90px;
+    border-radius: 10px;
+}
+#pichu{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Pichu_SSBU.png);
+    background-size: 112px, 90px;
+    border-radius: 10px;
+}
+#falco{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Falco_SSBU.png);
+    background-size: 115px, 93px;
+    border-radius: 10px;
+}
+#marth{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Marth_SSB4.png);
+    background-size: 111px, 88px;
+    border-radius: 10px;
+}
+#lucina{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Lucina_SSBU.png);
+    background-size: 116px, 94px;
+    border-radius: 10px;
+}
+#linkniño{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Young_Link_SSBU.png);
+    background-size: 110px, 87px;
+    border-radius: 10px;
+}
+#ganondorf{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Ganondorf_SSBU.png);
+    background-size: 115px, 93px;
+    border-radius: 10px;
+}
+#mewtwo{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Mewtwo_SSBU.png);
+    background-size: 124px, 102px;
+    border-radius: 10px;
+}
+#roy{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Roy_SSBU.png);
+    background-size: 112px, 89px;
+    border-radius: 10px;
+}
+#chrom{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Chrom_SSBU.png);
+    background-size: 110px, 87px;
+    border-radius: 10px;
+}
+#mr_gameywatch{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Mr._Game_&_Watch_SSBU.png);
+    background-size: 113px, 90px;
+    border-radius: 10px;
+}
+#metaknight{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Meta_knight_SSBU.png);
+    background-size: 125px, 103px;
+    border-radius: 10px;
+}
+#pit_sombrio{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Pit_SSBU.png);
+    background-size: 115px, 93px;
+    border-radius: 10px;
+}
+#samuszero{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Samus_Zero_SSBU.png);
+    background-size: 120px, 98px;
+    border-radius: 10px;
+}
+#wario{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Wario_SSBU.png);
+    background-size: 124px, 102px;
+    border-radius: 10px;
+}
+#snake{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Snake_SSBU.png);
+    background-size: 115px, 93px;
+    border-radius: 10px;
+}
+#ike{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Ike_SSBU.png);
+    background-size: 115px, 93px;
+    border-radius: 10px;
+}
+#entrenadorpokemon{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Entrenador_Pokémon_SSBU.png);
+    background-size: 115px, 93px;
+    border-radius: 10px;
+}
+#diddykong{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Diddy_Kong_SSBU.png);
+    background-size: 115px, 93px;
+    border-radius: 10px;
+}
+#sonic{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Sonic_SSBU.png);
+    background-size: 115px, 93px;
+    border-radius: 10px;
+}
+#reydedede{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Rey_Dedede_SSBU.png);
+    background-size: 113px, 90px;
+    border-radius: 10px;
+}
+#olimar{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Olimar_SSBU.png);
+    background-size: 118px, 96px;
+    border-radius: 10px;
+}
+#lucario{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Lucario_\(SSBU\).png);
+    background-size: 110px, 87px;
+    border-radius: 10px;
+}
+#rob{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/R.O.B._SSBU.png);
+    background-size: 117px, 95px;
+    border-radius: 10px;
+}
+#toonlink{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Toon_Link_SSBU.png);
+    background-size: 115px, 93px;
+    border-radius: 10px;
+}
+#wolf{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Wolf_SSBU.png);
+    background-size: 124px, 102px;
+    border-radius: 10px;
+}
+#aldeano{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Aldeano_SSBU.png);
+    background-size: 112px, 89px;
+    border-radius: 10px;
+}
+#megaman{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Mega_Man_SSBU.png);
+    background-size: 110px, 87px;
+    border-radius: 10px;
+}
+#wiifit{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/1200px-Entrenadora_de_Wii_Fit_SSBU.png);
+    background-size: 112px, 89px;
+    border-radius: 10px;
+}
+#estelaydestello{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Estela_y_Destello_SSBU.png);
+    background-size: 112px, 89px;
+    border-radius: 10px;
+}
+#littlemac{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Little_Mac_SSBU.png);
+    background-size: 109px, 87px;
+    border-radius: 10px;
+}
+#greninja{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Greninja_SSBU.png);
+    background-size: 124px, 102px;
+    border-radius: 10px;
+}
+#luchadormii{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Karateka_Mii_SSBU.png);
+    background-size: 135px, 113px;
+    border-radius: 10px;
+}
+#palutena{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Palutena_SSBU.png);
+    background-size: 115px, 93px;
+    border-radius: 10px;
+}
+#pacman{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Pac-Man_SSBU.png);
+    background-size: 117px, 95px;
+    border-radius: 10px;
+}
+#daraen{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Daraen_SSBU.png.);
+    background-size: 114px, 92px;
+    border-radius: 10px;
+}
+#shulk{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Shulk_SSBU.png);
+    background-size: 110px, 87px;
+    border-radius: 10px;
+}
+#bowsy{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Bowsy_SSBU.png);
+    background-size: 112px, 89px;
+    border-radius: 10px;
+}
+#duoduckhunt{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Dúo_Duck_Hunt_SSB4.png);
+    background-size: 120px, 99px;
+    border-radius: 10px;
+}
+#ryu{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Ryu_SSBU.png);
+    background-size: 115px, 93px;
+    border-radius: 10px;
+}
+#ken{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Ken-SSBU.png);
+    background-size: 104px, 87px;
+    border-radius: 10px;
+}
+#cloud{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Cloud_SSBU.png);
+    background-size: 110px, 87px;
+    border-radius: 10px;
+}
+#corrin{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Corrin_SSBU.png);
+    background-size: 115px, 93px;
+    border-radius: 10px;
+}
+#bayonetta{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Bayonetta.png);
+    background-size: 112px, 89px;
+    border-radius: 10px;
+}
+#inkling{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Inkling.png);
+    background-size: 117px, 95px;
+    border-radius: 10px;
+}
+#ridley{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Ridley_SSBU.png);
+    background-size: 117px, 95px;
+    border-radius: 10px;
+}
+#simon_richter{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Simon-Artwork-SSBU.png);
+    background-size: 112px, 89px;
+    border-radius: 10px;
+}
+#krool{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Krol.png);
+    background-size: 119px, 97px;
+    border-radius: 10px;
+}
+#canelita{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Canela_SSBU.png);
+    background-size: 112px, 89px;
+    border-radius: 10px;
+}
+#incineroar{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Incineroar-SSBU.png);
+    background-size: 116px, 94px;
+    border-radius: 10px;
+}
+#plantapiraña{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Planta-Piraña-SSBU.png);
+    background-size: 115px, 92px;
+    border-radius: 10px;
+}
+#joker{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/main.png);
+    background-size: 116px, 93px;
+    border-radius: 10px;
+}
+#heroe{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Hero_SSBU.png);
+    background-size: 113px, 90px;
+    border-radius: 10px;
+}
+#banjoykazooie{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Banjo_&_Kazooie_SSBU.jpg);
+    background-size: 110px, 87px;
+    border-radius: 10px;
+}
+#terry{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Terry_bogard.png);
+    background-size: 113px, 90px;
+    border-radius: 10px;
+}
+#byleth{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Byleth.png);
+    background-size: 108px, 86px;
+    border-radius: 10px;
+}
+#minmin{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Min_Min.png);
+    background-size: 120px, 97px;
+    border-radius: 10px;
+}
+#steve{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Steve.png);
+    background-size: 98px, 79px;
+    border-radius: 10px;
+}
+#sefirot{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-image: url(../img/smshcaract/Sefirot.png);
+    background-size: 124px, 101px;
+    border-radius: 10px;
+}
+#pyra_mythra{
+    margin: 0px;
+    background-image: url(../img/smshcaract/pyra_mythra.png);
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 140px, 120px;
+    border-radius: 10px;
+}
+#personajessmsh{
+    margin: 10px;
+    background-color: #97609B;
+    width: 1300px;
+    height: 1300px;
+    float: left;
+    border-radius: 10px;
+}
+#smshimg{
+    margin-left: 20px;
+    float: left;
+    border-color: #C63CD1;
+    border-style: solid;
+    border-radius: 5px;
+}
+#sisaspa{
+    float: left;
+}
+#texto1{
+    color: white;
+    float: left;
+    width: 42%;
+    height: 385px;
+    padding-left: 70px;
+    padding-top: 30px;
+    font-size: 38px;
+} 
+#primerpedazo{ 
+    width: 1310px;
+    height: 475px;
+    padding-top: 70px;
+    background-image:url(../img/hero/top-left-shape.png);
+}
+#pater{
+    background-image: url(../img/hero/down-right-shape.png);
+    width: 100%;
+    height: 400px;
+    float: left;
+    margin-top: 100px;
+}
+#logocacho{
+    margin-top: 50px;
+    margin-left: 40px;
+    float: left;
+}
+#redescacho{
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    width: 35%;
+    height: 260px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.redsocial{
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    border-width: 7px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 12px;
+    margin-left: 20px;
+}
+#copirai{
+    float: left;
+    margin-top: 80px;
+}

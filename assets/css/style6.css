@@ -1,0 +1,607 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#header{
+    background-color: #5C355F;
+    width: 100%;
+    height: 70px;
+    position:absolute;
+}
+
+#navegacion{
+    margin: auto;
+    width: 500px;
+}
+#logopag1{
+    float: left;
+    margin-top: 10px;
+}
+.nav{
+    float: right;
+    font-size: 30px;
+    font-style: italic;
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: #5C355F;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a:hover{
+    background-color:#97609B;
+}
+.nav > li{
+    float: left;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+#primercachojuasjuas{ 
+    width: 1310px;
+    height: 475px;
+    padding-top: 70px;
+    background-image:url(../img/hero/top-left-shape.png);
+}
+#text1{
+    color: white;
+    float: left;
+    width: 42%;
+    height: 385px;
+    padding-left: 70px;
+    padding-top: 30px;
+    font-size: 38px;
+}
+#super_goku{
+    margin: 0px;
+    background: url(../img/dbfzcaract/super_goku.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 140px, 120px;
+    border-radius: 10px;
+}
+#goku_blue{
+    margin: 0px;
+    background: url(../img/dbfzcaract/goku_blue.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 140px, 120px;
+    border-radius: 10px;
+}
+#super_vegeta{
+    margin: 0px;
+    background: url(../img/dbfzcaract/super_vegeta.jfif) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 130px, 90px;
+    border-radius: 10px;
+}
+#vegeta_blue{
+    margin: 0px;
+    background: url(../img/dbfzcaract/vegeta_blue.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 140px, 120px;
+    border-radius: 10px;
+}
+#gohan_joven{
+    margin: 0px;
+    background: url(../img/dbfzcaract/gohan_joven.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 120px, 100px;
+    border-radius: 10px;
+}
+#trunks{
+    margin: 0px;
+    background: url(../img/dbfzcaract/Trunks.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 120px, 111px;
+    border-radius: 10px;
+}
+#picoro{
+    margin: 0px;
+    background: url(../img/dbfzcaract/Piccolo.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 117px, 107px;
+    border-radius: 10px;
+}
+#krilin{
+    margin: 0px;
+    background: url(../img/dbfzcaract/krillin.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 140px, 120px;
+    border-radius: 10px;
+}
+#tenshinhan{
+    margin: 0px;
+    background: url(../img/dbfzcaract/tenshinhan.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 114px, 115px;
+    border-radius: 10px;
+}
+#yamcha{
+    margin: 0px;
+    background: url(../img/dbfzcaract/Yamcha.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 140px, 120px;
+    border-radius: 10px;
+}
+#freeza{
+    margin: 0px;
+    background: url(../img/dbfzcaract/feezer.jpg) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 140px, 120px;
+    border-radius: 10px;
+}
+#cell{
+    margin: 0px;
+    background: url(../img/dbfzcaract/cell.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 240px, 220px;
+    border-radius: 10px;
+}
+#majin_boo{
+    margin: 0px;
+    background: url(../img/dbfzcaract/Majin_Buu.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 140px, 120px;
+    border-radius: 10px;
+}
+#numero16{
+    margin: 0px;
+    background: url(../img/dbfzcaract/numero_16.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 140px, 120px;
+    border-radius: 10px;
+}
+#numero18{
+    margin: 0px;
+    background: url(../img/dbfzcaract/numero_18.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 120px, 100px;
+    border-radius: 10px;
+}
+#nappa{
+    margin: 0px;
+    background: url(../img/dbfzcaract/Nappa.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 140px, 120px;
+    border-radius: 10px;
+}
+#ginyu{
+    margin: 0px;
+    background: url(../img/dbfzcaract/ginyu.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 140px, 120px;
+    border-radius: 10px;
+}
+#pequeño_boo{
+    margin: 0px;
+    background: url(../img/dbfzcaract/pequeño_boo.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 110px, 90px;
+    border-radius: 10px;
+}
+#gotenks{
+    margin: 0px;
+    background: url(../img/dbfzcaract/Gotenks.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 120px, 100px;
+    border-radius: 10px;
+}
+#son_gohan{
+    margin: 0px;
+    background: url(../img/dbfzcaract/son_gohan.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 120px, 100px;
+    border-radius: 10px;
+}
+#beerus{
+    margin: 0px;
+    background: url(../img/dbfzcaract/beerus.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 120px, 100px;
+    border-radius: 10px;
+}
+#hit{
+    margin: 0px;
+    background: url(../img/dbfzcaract/hit.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 150px, 130px;
+    border-radius: 10px;
+}
+#goku_black{
+    margin: 0px;
+    background: url(../img/dbfzcaract/goku_black.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 140px, 120px;
+    border-radius: 10px;
+}
+#numero21{
+    margin: 0px;
+    background: url(../img/dbfzcaract/numero_21.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 120px, 100px;
+    border-radius: 10px;
+}
+#bardok{
+    margin: 0px;
+    background: url(../img/dbfzcaract/bardock.jpg) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 110px, 90px;
+    border-radius: 10px;
+}
+#broly{
+    margin: 0px;
+    background: url(../img/dbfzcaract/broly.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 110px, 90px;
+    border-radius: 10px;
+}
+#zamas{
+    margin: 0px;
+    background: url(../img/dbfzcaract/zamas.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 120px, 100px;
+    border-radius: 10px;
+}
+#vegerot{
+    margin: 0px;
+    background: url(../img/dbfzcaract/vegeto.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 120px, 100px;
+    border-radius: 10px;
+}
+#son_goku{
+    margin: 0px;
+    background: url(../img/dbfzcaract/son_goku.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 120px, 100px;
+    border-radius: 10px;
+}
+#vegetaIV{
+    margin: 0px;
+    background: url(../img/dbfzcaract/vegeta_iv.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 130px, 110px;
+    border-radius: 10px;
+}
+#coora{
+    margin: 0px;
+    background: url(../img/dbfzcaract/Cooler.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 115px, 95px;
+    border-radius: 10px;
+}
+#numero17{
+    margin: 0px;
+    background: url(../img/dbfzcaract/numero_17.jfif) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 150px, 130px;
+    border-radius: 10px;
+}
+#jiren{
+    margin: 0px;
+    background: url(../img/dbfzcaract/jiren.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 130px, 110px;
+    border-radius: 10px;
+}
+#videl{
+    margin: 0px;
+    background: url(../img/dbfzcaract/Videl.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 130px, 110px;
+    border-radius: 10px;
+}
+#goku_gt{
+    margin: 0px;
+    background: url(../img/dbfzcaract/goku_gt.jfif) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 117px, 97px;
+    border-radius: 10px;
+}
+#janemba{
+    margin: 0px;
+    background: url(../img/dbfzcaract/Janemba.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 130px, 110px;
+    border-radius: 10px;
+}
+#gogeta{
+    margin: 0px;
+    background: url(../img/dbfzcaract/gogeta.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 140px, 120px;
+    border-radius: 10px;
+}
+#broly_br{
+    margin: 0px;
+    background: url(../img/dbfzcaract/broly_br.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 165px, 145px;
+    border-radius: 10px;
+}
+#kafla{
+    margin: 0px;
+    background: url(../img/dbfzcaract/kefla.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 120px, 100px;
+    border-radius: 10px;
+}
+#goku_egoista{
+    margin: 0px;
+    background: url(../img/dbfzcaract/goku_egoista.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 130px, 110px;
+    border-radius: 10px;
+}
+#roshi{
+    margin: 0px;
+    background: url(../img/dbfzcaract/roshi.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 115px, 95px;
+    border-radius: 10px;
+}
+#baby{
+    margin: 0px;
+    background: url(../img/dbfzcaract/baby.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 140px, 120px;
+    border-radius: 10px;
+}
+#gogeta4{
+    margin: 0px;
+    background: url(../img/dbfzcaract/gogeta_4.png) center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 12px;
+    background-size: 105px, 75px;
+    border-radius: 10px;
+}
+
+#personajesdbfz{
+    margin: 10px;
+    background-color: #97609B;
+    width: 1300px;
+    height: 723px;
+    float: left;
+    border-radius: 10px;
+}
+#kofimg{
+    margin-left: 20px;
+    float: left;
+    border-color: #C63CD1;
+    border-style: solid;
+    border-radius: 5px;
+}
+#sisaspa{
+    float: left;
+}
+#texto1{
+    color: white;
+    float: left;
+    width: 42%;
+    height: 385px;
+    padding-left: 70px;
+    padding-top: 30px;
+    font-size: 38px;
+} 
+#primerpedazo{ 
+    width: 1310px;
+    height: 475px;
+    padding-top: 70px;
+    background-image:url(../img/hero/top-left-shape.png);
+}
+#pater{
+    background-image: url(../img/hero/down-right-shape.png);
+    width: 100%;
+    height: 400px;
+    float: left;
+    margin-top: 100px;
+}
+#logocacho{
+    margin-top: 50px;
+    margin-left: 40px;
+    float: left;
+}
+#redescacho{
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    width: 35%;
+    height: 260px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.redsocial{
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    border-width: 7px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 12px;
+    margin-left: 20px;
+}
+#copirai{
+    float: left;
+    margin-top: 80px;
+}
